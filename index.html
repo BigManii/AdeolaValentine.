@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Be My Valentine ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Landing Page -->
+  <div class="page" id="landing">
+    <div class="intro-text">
+      <p>I made something special just for you 💌</p>
+    </div>
+    <button id="openBtn">Open 💌</button>
+  </div>
+
+  <!-- Valentine Page -->
+  <div class="page hidden" id="valentine">
+    <h1>Be My Valentine, <span class="name">My Sweet BumBum</span> 💖</h1>
+    
+    <div class="buttons">
+      <button id="yesBtn">YES 😍</button>
+      <button id="noBtn">NO 🙄</button>
+    </div>
+
+    <div class="heart-container">
+      <div class="heart"></div>
+    </div>
+
+    <div id="result" class="hidden">
+      <h2>I knew you'd say YES 🥹❤️</h2>
+      
+      <video
+        id="valVideo"
+        playsinline
+        muted
+        loop
+        preload="metadata"
+        class="val-video"
+      >
+        <source src="VIDEO-2025-11-05-13-12-59.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <p class="love-text" id="loveText">
+      Every moment with you feels like home.  
+      I love and appreciate you, my sweet adeola 💘
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
